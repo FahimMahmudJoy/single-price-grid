@@ -1,0 +1,146 @@
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: hsl(204, 43%, 93%);
+    font-family: 'Karla', sans-serif;
+    /* font-family: 'Outfit', sans-serif; */
+}
+
+main {
+    /* border: 2px solid red; */
+    /* padding:100px; */
+    /* width: 100%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.group-2 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    width: 60%;
+    /* border: 2px solid green; */
+    padding: 1rem 2rem;
+    /* min-height: 250px; */
+}
+
+.intro {
+    background: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.intro-h {
+    color: hsl(179, 62%, 33%);
+}
+
+.intro-p {
+    line-height: 2em;
+}
+
+.signup,
+.why-us {
+    color: white;
+}
+
+.signup {
+    background: hsl(179, 62%, 33%);
+    padding-bottom: 1.5rem;
+}
+
+.why-us {
+    background: hsl(179, 62%, 43%);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding-bottom: 2.5rem;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    color: hsl(204, 43%, 93%);
+}
+
+.advantage {
+    color:hsl(71, 73%, 54%);
+    font-weight: 700;
+}
+
+.btn {
+    display: block;
+    text-align: center;
+    /* width: 80%; */
+    color: white;
+    background: hsl(71, 73%, 54%);
+    padding: 1em;
+    margin: 0 auto;
+    border-radius: 5px;
+    box-shadow: rgb(92, 90, 90) 3px 3px 7px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    opacity: 0.8;
+    color: black;
+}
+
+.plan {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+}
+
+.dollar {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+@media (min-width: 700px) {
+    main {
+        /* flex-direction: row; */
+        /* border: 2px solid red; */
+    }
+
+    .group-2 {
+        flex-direction: row;
+        /* border: 2px solid hotpink; */
+    }
+
+    .intro {
+        width: 800px;
+    }
+
+    .signup,
+    .why-us {
+        width: 367px;
+        height: 100%;
+    }
+
+    .card {
+        border-radius: 0;
+    }
+}
